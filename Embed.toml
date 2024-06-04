@@ -1,0 +1,8 @@
+[default.general]
+chip = "nRF52832_xxAA"
+
+[default.probe]
+protocol = "Swd"
+
+[default.rtt]
+enabled = true
