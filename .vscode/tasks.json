@@ -1,0 +1,21 @@
+{
+    "tasks": [
+        {
+            "label": "rust: cargo build firmware",
+            "type": "cargo",
+            "command": "build",
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "options": {
+                "env": {
+                    "DEFMT_LOG": "info"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
