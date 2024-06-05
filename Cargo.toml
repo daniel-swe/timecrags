@@ -11,4 +11,4 @@ rtt-target = "0.5.0"
 [dependencies.nrf52832-hal]
 version = "0.18.0"
 default-features = false
-features = ["rt", "xxAA-package", "embedded-hal-02"]
+features = ["rt", "embedded-hal-02", "xxAA-package"]

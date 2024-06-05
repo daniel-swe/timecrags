@@ -7,8 +7,10 @@ use rtt_target::{rprintln, rtt_init_print};
 #[cortex_m_rt::entry]
 fn main() -> ! {
     rtt_init_print!();
+    let mut i: u64 = 0;
     loop {
-        rprintln!("Hello, world!");
+        rprintln!("Hello, world! Count={}", i);
+        i += 1;
     }
 }
 
